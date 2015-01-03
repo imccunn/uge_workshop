@@ -2,7 +2,9 @@
 
   History of Unix section
 
-  
+Notes: 
+  - Hidden files and folders begin with a dot
+
    28  cd /usr/
    29  ls
    30  cd www/html/
