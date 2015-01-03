@@ -1,0 +1,506 @@
+// CF - Git/Unix Workshop
+
+  History of Unix section
+
+  
+   28  cd /usr/
+   29  ls
+   30  cd www/html/
+   31  ls
+   32  cd js
+   33  ls
+   34  sudo nano app.js 
+   35  cd ..
+   36  ls
+   37  cd ..
+   38  ls
+   39  cd /Volumes/KINGSTON/CodeFellows/
+   40  ls
+   41  cd CodeFellows\ Code\ Problems\ App\ Step\ 3/
+   42  ls
+   43  sudo cp ember-app/* /usr/www/html/
+   44  sudo cp -R ember-app/* /usr/www/html/
+   45  sudo cp -r ember-app/* /usr/www/html/
+   46  cd /usr/www/html/
+   47  ls
+   48  cd js
+   49  sudo ano app.js 
+   50  sudo nano app.js 
+   51  open -a Finder /usr/www/
+   52  exit
+   53  ssh www.ianmccunn.com
+   54  ping www.ianmccunn.com
+   55  man ping
+   56  ping -c 1
+   57  man ping
+   58  ping -c 2
+   59  man ping
+   60  ping -c 2 www.ianmccunn.com
+   61  ssh 107.170.253.228
+   62  ssh mortonfeldman@107.170.253.228
+   63  exit
+   64  cd /
+   65  ls
+   66  cd /Volumes/
+   67  ls
+   68  sudo chown root:admin Tasty\ Bacon/
+   69  sudo nano /etc/fstab
+   70  sudo nano /etc/fstab.hd 
+   71  ls
+   72  cd github/
+   73  ls
+   74  cd ..
+   75  cd /Documents
+   76  cd ..
+   77  ls
+   78  cd ianmccunn/
+   79  ls
+   80  cd Documents
+   81  ls
+   82  cd git
+   83  ls
+   84  cd mccunn-music/
+   85  ls
+   86  ls -l
+   87  ls -a
+   88  ls -l
+   89  clear
+   90  ls
+   91  man ping
+   92  ping -c 2 www.ianmccunn.com
+   93  ssh mortonfeldman@107.170.253.228
+   94  clear
+   95  ping -c 2 www.ianmccunn.com
+   96  ssh mortonfeldman@107.170.253.228
+   97  clear
+   98  ls
+   99  cd ..
+  100  ls
+  101  ls -l
+  102  pd
+  103  sudo pd
+  104  echo $PATH
+  105  npm
+  106  npm -l
+  107  man node
+  108  npm whoami
+  109  npm adduser
+  110  npm whoami
+  111  node whoami
+  112  node 2+1
+  113  node
+  114  man node
+  115  node
+  116  cd .
+  117  cd /
+  118  ls
+  119  ls -l
+  120  clear
+  121  nginx
+  122  sudo nginx
+  123  man nginx
+  124  nom
+  125  npm
+  126  npm info
+  127  npm update
+  128  npm info
+  129  npm whoami
+  130  npm version
+  131  cd ~
+  132  ls
+  133  ls Documents/
+  134  ls
+  135  cd Documents/git/
+  136  ls
+  137  ls -l
+  138  git status
+  139  sudo git status
+  140  sudo git status
+  141  git
+  142  ls
+  143  ls -l
+  144  cd ianmccunn/
+  145  ls
+  146  git status
+  147  git
+  148  git log
+  149  clear
+  150  cd ..
+  151  ls
+  152  ls -l
+  153  sudo apt-get install gimp
+  154  ifconfig
+  155  clear
+  156  ln -s /Applications/Sublime\ Text\
+  157  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  158  subl
+  159  cd /Applications/
+  160  ls
+  161  ls -a
+  162  ls -l
+  163  cd ~
+  164  ls
+  165  cd github/
+  166  ls
+  167  git status
+  168  cd ..
+  169  ls
+  170  cd Documents/
+  171  ls
+  172  cd git
+  173  ls
+  174  cd sea-w23-uge/
+  175  git status
+  176  git branch funny_image
+  177  git status
+  178  git checkout funny_image
+  179  mkdir mcfun
+  180  ls
+  181  cd mcfun/
+  182  sudo vim README.md
+  183  subl README.md 
+  184  vi README.md 
+  185  sudo vi README.md 
+  186  git add README.md 
+  187  git status
+  188  git commit -m "mcfun's contribution"
+  189  ls
+  190  sudo nano README.md 
+  191  ls
+  192  git status
+  193  git checkout master
+  194  git status
+  195  ls
+  196  sudo git status
+  197  git
+  198  cd ..
+  199  ls
+  200  git status
+  201  ls -l
+  202  mkdir mcfun
+  203  ls
+  204  cd mcfun
+  205  ls
+  206  sudo vim README.md
+  207  git status
+  208  cd ..
+  209  ls
+  210  git add mcfun
+  211  ls
+  212  git status
+  213  sudo nano mcfun/README.md 
+  214  sudo rm mcfun/
+  215  git remove mcfun
+  216  git unstage mcfun
+  217  git reset HEAD file
+  218  ls
+  219  git status
+  220  git reset HEAD mcfun
+  221  ls
+  222  git status
+  223  git reset HEAD mcfun/README.md
+  224  git status
+  225  ls
+  226  sudo rm -rf mcfun
+  227  ls
+  228  git branch funny_image
+  229  git checkout funny_image
+  230  git status
+  231  cd mcfun/
+  232  ls
+  233  cd ..
+  234  ls
+  235  git checkout master
+  236  ls
+  237  git checkout master
+  238  ls
+  239  git merge funny_image
+  240  git status
+  241  git push origin remote
+  242  ls
+  243  cd Documents/
+  244  ls
+  245  cd ghit
+  246  cd git
+  247  ls
+  248  cd sea-w23-uge/
+  249  ls
+  250  git status
+  251  git push
+  252  cool neat
+  253  ls
+  254  cd /D
+  255  cd Documents/
+  256  ls
+  257  cd git
+  258  ls
+  259  ls -la
+  260  ls -l
+  261  exit
+  262  ls
+  263  cd Documents/git
+  264  ls
+  265  cd sea-w23-uge/
+  266  ls
+  267  cd mcfun/
+  268  ls
+  269  sudo nano README.md 
+  270  ls
+  271  git status
+  272  git checkout -- README.md 
+  273  ls
+  274  git status
+  275  sudo nano README.md 
+  276  cd ..
+  277  git status
+  278  ls
+  279  git push origin remote
+  280  git push origin remote
+  281  sudo git push origin remote
+  282  git status
+  283  git push origin master
+  284  clear
+  285  ls
+  286  cd ..
+  287  ls
+  288  ls -l
+  289  cd ..
+  290  ls -l
+  291  cd git
+  292  ls
+  293  ls -la
+  294  man ifconfig
+  295  ifconfig -a
+  296  ifconfig
+  297  clear
+  298  cd /
+  299  ls
+  300  cd Volumes/
+  301  ls
+  302  cd KINGSTON/
+  303  ls
+  304  ls -la
+  305  subl Code
+  306  top
+  307  top
+  308  pwd
+  309  cd /
+  310  ls
+  311  ls -la
+  312  id
+  313  man id
+  314  $PATH
+  315  clear
+  316  pwd
+  317  ls
+  318  cd User
+  319  cd Users
+  320  ls
+  321  cd ianmccunn/
+  322  ls
+  323  pwd
+  324  ls -la
+  325  clear
+  326  pwd
+  327  cd /
+  328  ls
+  329  ls -la
+  330  clear
+  331  ls
+  332  ls -l
+  333  la
+  334  ls
+  335  clear
+  336  ls
+  337  ls -t
+  338  ls -lt
+  339  ls -lt
+  340  ls -l
+  341  clear
+  342  ls -l
+  343  clear
+  344  ls -l
+  345  ls -lr
+  346  ls -lt
+  347  ls -ltr
+  348  clear
+  349  man ls
+  350  exit
+  351  ls
+  352  cd Documents/
+  353  ls
+  354  sudo vim CF\ -\ Git\:Unix\ Workshop.rtf 
+  355  alias
+  356  man alias
+  357  node
+  358  clear
+  359  man -k
+  360  man -k ls
+  361  man ls
+  362  ls -i
+  363  ls -li
+  364  ls -lir
+  365  man ls
+  366  ls -P
+  367  ls -lP
+  368  ls
+  369  ls -l
+  370  ls -P
+  371  ls -lP
+  372  ls -lp
+  373  man ls
+  374  ls -1
+  375  man ls
+  376  ls -v
+  377  cd ~
+  378  ls
+  379  ls -1
+  380  ls -1p
+  381  clear
+  382  ls
+  383  ls -l
+  384  ls -l
+  385  ls ianmccunn-m/
+  386  ls
+  387  cd ianmccunn-m/
+  388  ls
+  389  man rm
+  390  cd ..
+  391  ls
+  392  rm -d ianmccunn-m/
+  393  sudo rm -d ianmccunn-m/
+  394  man rm
+  395  ls
+  396  cd ianmccunn-m/
+  397  ls
+  398  ls -l
+  399  cd ..
+  400  ls
+  401  man rm
+  402  rm -dv ianmccunn-m/
+  403  man rm
+  404  rm -dfv ianmccunn-m/
+  405  sudo rm -dfv ianmccunn-m/
+  406  rm -dfrv ianmccunn-m/
+  407  ls
+  408  clear
+  409  ls
+  410  cd github/
+  411  ls
+  412  cd ..
+  413  cd ..
+  414  ls
+  415  cd ianmccunn/
+  416  ls
+  417  cd Documents/
+  418  ls
+  419  cd ../..
+  420  ls
+  421  cd ianmccunn/
+  422  ls
+  423  ls
+  424  cd Applications/
+  425  ls
+  426  cd ..
+  427  ls
+  428  cd ..
+  429  ls
+  430  cd /
+  431  ls
+  432  ls bin
+  433  ls
+  434  ls -l
+  435  cd ..
+  436  ls
+  437  ls usr
+  438  ls
+  439  ls bin
+  440  ls
+  441  cd
+  442  ls
+  443  ls Library/
+  444  ls
+  445  cd /
+  446  ls
+  447  ls var
+  448  ls
+  449  cd etc
+  450  ls
+  451  man ls
+  452  ls /
+  453  ls -l /
+  454  ls / -l
+  455  ls
+  456  cd ..
+  457  ls
+  458  ls bin
+  459  ls
+  460  cd bin
+  461  ls
+  462  cd ..
+  463  ls
+  464  ls etc
+  465  cd ..
+  466  ls
+  467  cd var
+  468  ls
+  469  cd ..
+  470  ls
+  471  ls etc
+  472  cd ..
+  473  cd .
+  474  cd /.
+  475  ls
+  476  cd ./home/
+  477  ls
+  478  cd ..
+  479  ls
+  480  ls .
+  481  ls
+  482  clear
+  483  ls
+  484  ls etc
+  485  ls
+  486  ls usr
+  487  ls www
+  488  ls
+  489  cd ..
+  490  ls
+  491  cd usr
+  492  ls
+  493  cd www/
+  494  ls
+  495  cd html/
+  496  ls
+  497  cd
+  498  ls
+  499  nginx
+  500  sudo nginx
+  501  ls
+  502  man nginx
+  503  nginx stop
+  504  man nginx
+  505  nginx -s stop
+  506  sudo nginx -s stop
+  507  nginx
+  508  sudo nginx
+  509  nginx
+  510  nginx status
+  511  man nginx
+  512  sudo nginx -s stop
+  513  clear
+  514  history
+  515  history | less
+  516  history | less
+  517  man less
+  518  ls |less
+  519  history
+  520  history | less
+  521  pwd
+  522  cd
+  523  ls
+  524  mkdir CF_Git_Unix_Workshop
+  525  cd CF_Git_Unix_Workshop/
+  526  ls
+  527  history > recent_history.txt
+
