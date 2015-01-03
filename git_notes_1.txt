@@ -1,0 +1,502 @@
+   Mcfun's git notes
+
+   52  cd git
+   53  ls
+   54  cd sea-w23-uge/
+   55  git status
+   56  git branch funny_image
+   57  git status
+   58  git checkout funny_image
+   59  mkdir mcfun
+   60  ls
+   61  cd mcfun/
+   62  sudo vim README.md
+   63  subl README.md 
+   64  vi README.md 
+   65  sudo vi README.md 
+   66  git add README.md 
+   67  git status
+   68  git commit -m "mcfun's contribution"
+   69  ls
+   70  sudo nano README.md 
+   71  ls
+   72  git status
+   73  git checkout master
+   74  git status
+   75  ls
+   76  sudo git status
+   77  git
+   78  cd ..
+   79  ls
+   80  git status
+   81  ls -l
+   82  mkdir mcfun
+   83  ls
+   84  cd mcfun
+   85  ls
+   86  sudo vim README.md
+   87  git status
+   88  cd ..
+   89  ls
+   90  git add mcfun
+   91  ls
+   92  git status
+   93  sudo nano mcfun/README.md 
+   94  sudo rm mcfun/
+   95  git remove mcfun
+   96  git unstage mcfun
+   97  git reset HEAD file
+   98  ls
+   99  git status
+  100  git reset HEAD mcfun
+  101  ls
+  102  git status
+  103  git reset HEAD mcfun/README.md
+  104  git status
+  105  ls
+  106  sudo rm -rf mcfun
+  107  ls
+  108  git branch funny_image
+  109  git checkout funny_image
+  110  git status
+  111  cd mcfun/
+  112  ls
+  113  cd ..
+  114  ls
+  115  git checkout master
+  116  ls
+  117  git checkout master
+  118  ls
+  119  git merge funny_image
+  120  git status
+  121  git push origin remote
+  122  ls
+  123  cd Documents/
+  124  ls
+  125  cd ghit
+  126  cd git
+  127  ls
+  128  cd sea-w23-uge/
+  129  ls
+  130  git status
+  131  git push
+  132  cool neat
+  133  ls
+  134  cd /D
+  135  cd Documents/
+  136  ls
+  137  cd git
+  138  ls
+  139  ls -la
+  140  ls -l
+  141  exit
+  142  ls
+  143  cd Documents/git
+  144  ls
+  145  cd sea-w23-uge/
+  146  ls
+  147  cd mcfun/
+  148  ls
+  149  sudo nano README.md 
+  150  ls
+  151  git status
+  152  git checkout -- README.md 
+  153  ls
+  154  git status
+  155  sudo nano README.md 
+  156  cd ..
+  157  git status
+  158  ls
+  159  git push origin remote
+  160  git push origin remote
+  161  sudo git push origin remote
+  162  git status
+  163  git push origin master
+  164  clear
+  165  ls
+  166  cd ..
+  167  ls
+  168  ls -l
+  169  cd ..
+  170  ls -l
+  171  cd git
+  172  ls
+  173  ls -la
+  174  man ifconfig
+  175  ifconfig -a
+  176  ifconfig
+  177  clear
+  178  cd /
+  179  ls
+  180  cd Volumes/
+  181  ls
+  182  cd KINGSTON/
+  183  ls
+  184  ls -la
+  185  subl Code
+  186  top
+  187  top
+  188  pwd
+  189  cd /
+  190  ls
+  191  ls -la
+  192  id
+  193  man id
+  194  $PATH
+  195  clear
+  196  pwd
+  197  ls
+  198  cd User
+  199  cd Users
+  200  ls
+  201  cd ianmccunn/
+  202  ls
+  203  pwd
+  204  ls -la
+  205  clear
+  206  pwd
+  207  cd /
+  208  ls
+  209  ls -la
+  210  clear
+  211  ls
+  212  ls -l
+  213  la
+  214  ls
+  215  clear
+  216  ls
+  217  ls -t
+  218  ls -lt
+  219  ls -lt
+  220  ls -l
+  221  clear
+  222  ls -l
+  223  clear
+  224  ls -l
+  225  ls -lr
+  226  ls -lt
+  227  ls -ltr
+  228  clear
+  229  man ls
+  230  exit
+  231  ls
+  232  cd Documents/
+  233  ls
+  234  sudo vim CF\ -\ Git\:Unix\ Workshop.rtf 
+  235  alias
+  236  man alias
+  237  node
+  238  clear
+  239  man -k
+  240  man -k ls
+  241  man ls
+  242  ls -i
+  243  ls -li
+  244  ls -lir
+  245  man ls
+  246  ls -P
+  247  ls -lP
+  248  ls
+  249  ls -l
+  250  ls -P
+  251  ls -lP
+  252  ls -lp
+  253  man ls
+  254  ls -1
+  255  man ls
+  256  ls -v
+  257  cd ~
+  258  ls
+  259  ls -1
+  260  ls -1p
+  261  clear
+  262  ls
+  263  ls -l
+  264  ls -l
+  265  ls ianmccunn-m/
+  266  ls
+  267  cd ianmccunn-m/
+  268  ls
+  269  man rm
+  270  cd ..
+  271  ls
+  272  rm -d ianmccunn-m/
+  273  sudo rm -d ianmccunn-m/
+  274  man rm
+  275  ls
+  276  cd ianmccunn-m/
+  277  ls
+  278  ls -l
+  279  cd ..
+  280  ls
+  281  man rm
+  282  rm -dv ianmccunn-m/
+  283  man rm
+  284  rm -dfv ianmccunn-m/
+  285  sudo rm -dfv ianmccunn-m/
+  286  rm -dfrv ianmccunn-m/
+  287  ls
+  288  clear
+  289  ls
+  290  cd github/
+  291  ls
+  292  cd ..
+  293  cd ..
+  294  ls
+  295  cd ianmccunn/
+  296  ls
+  297  cd Documents/
+  298  ls
+  299  cd ../..
+  300  ls
+  301  cd ianmccunn/
+  302  ls
+  303  ls
+  304  cd Applications/
+  305  ls
+  306  cd ..
+  307  ls
+  308  cd ..
+  309  ls
+  310  cd /
+  311  ls
+  312  ls bin
+  313  ls
+  314  ls -l
+  315  cd ..
+  316  ls
+  317  ls usr
+  318  ls
+  319  ls bin
+  320  ls
+  321  cd
+  322  ls
+  323  ls Library/
+  324  ls
+  325  cd /
+  326  ls
+  327  ls var
+  328  ls
+  329  cd etc
+  330  ls
+  331  man ls
+  332  ls /
+  333  ls -l /
+  334  ls / -l
+  335  ls
+  336  cd ..
+  337  ls
+  338  ls bin
+  339  ls
+  340  cd bin
+  341  ls
+  342  cd ..
+  343  ls
+  344  ls etc
+  345  cd ..
+  346  ls
+  347  cd var
+  348  ls
+  349  cd ..
+  350  ls
+  351  ls etc
+  352  cd ..
+  353  cd .
+  354  cd /.
+  355  ls
+  356  cd ./home/
+  357  ls
+  358  cd ..
+  359  ls
+  360  ls .
+  361  ls
+  362  clear
+  363  ls
+  364  ls etc
+  365  ls
+  366  ls usr
+  367  ls www
+  368  ls
+  369  cd ..
+  370  ls
+  371  cd usr
+  372  ls
+  373  cd www/
+  374  ls
+  375  cd html/
+  376  ls
+  377  cd
+  378  ls
+  379  nginx
+  380  sudo nginx
+  381  ls
+  382  cd ..
+  383  ls
+  384  ls ianmccunn/
+  385  cd ianmccunn/
+  386  cd Documents/
+  387  ls
+  388  cd git
+  389  cd ..
+  390  subl git
+  391  ls
+  392  man nginx
+  393  nginx stop
+  394  man nginx
+  395  nginx -s stop
+  396  sudo nginx -s stop
+  397  nginx
+  398  sudo nginx
+  399  nginx
+  400  nginx status
+  401  man nginx
+  402  sudo nginx -s stop
+  403  clear
+  404  history
+  405  history | less
+  406  history | less
+  407  man less
+  408  ls |less
+  409  history
+  410  history | less
+  411  pwd
+  412  cd
+  413  ls
+  414  mkdir CF_Git_Unix_Workshop
+  415  cd CF_Git_Unix_Workshop/
+  416  ls
+  417  history > recent_history.txt
+  418  ls
+  419  nano recent_history.txt 
+  420  less recent_history.txt 
+  421  cat recent_history.txt 
+  422  clear
+  423  ls
+  424  ls -t
+  425  ls -l
+  426  ls >> recent_history.txt 
+  427  cat recent_history.txt 
+  428  "wow that's neat" >> recent_history.txt 
+  429  echo "wow that's neat" >> recent_history.txt 
+  430  ls
+  431  cat recent_history.txt 
+  432  ls
+  433  subl recent_history.txt 
+  434  subl
+  435  ls
+  436  cd ..
+  437  ls
+  438  cd CF_Git_Unix_Workshop/
+  439  ls
+  440  mkdir uge_workshop
+  441  ls
+  442  cd ..
+  443  ls
+  444  cd CF_Git_Unix_Workshop/
+  445  ls
+  446  mv recent_history.txt uge_workshop/
+  447  ls
+  448  cd uge_workshop/
+  449  ls
+  450  cd ..
+  451  ls
+  452  subl uge_workshop/
+  453  ls
+  454  cd uge_workshop/
+  455  ls
+  456  mv recent_history.txt unix_notes.txt
+  457  ls
+  458  pq
+  459  clear
+  460  pwd
+  461  ls
+  462  man cp
+  463  ls
+  464  cp unix_notes.txt unix_notes1.txt 
+  465  ls
+  466  rm unix_notes1.txt 
+  467  ls
+  468  ls
+  469  ls -l
+  470  ls
+  471  cd ..
+  472  ls
+  473  ls ianmccunn/
+  474  ls
+  475  cd ianmccunn/
+  476  ls
+  477  cd CF_Git_Unix_Workshop/
+  478  ls
+  479  ls
+  480  cd Documents/git/
+  481  ls
+  482  ls -l
+  483  cd rNums/
+  484  ls
+  485  sudo vim rNums.js 
+  486  ls
+  487  vi rNums.js 
+  488  top
+  489  top
+  490  vmstat
+  491  sudo iostat
+  492  iostat
+  493  mpstat
+  494  systat
+  495  id
+  496  id -l
+  497  id
+  498  last
+  499  cd ~
+  500  ls
+  501  ls
+  502  cd CF_Git_Unix_Workshop/
+  503  ls
+  504  cd uge_workshop/
+  505  ls
+  506  ls
+  507  subl unix_notes.txt 
+  508  cd ..
+  509  ls
+  510  cd uge_workshop/
+  511  ls
+  512  which git
+  513  which nginx
+  514  which node
+  515  git --version
+  516  node --version
+  517  nginx --version
+  518  nginx -version
+  519  nginx -v
+  520  clear
+  521  ls
+  522  which git
+  523  git config
+  524  git config --global
+  525  git user.name
+  526  git --help
+  527  git config -l
+  528  git config -l | sort
+  529  git config -l | sort | less
+  530  git config -l |less
+  531  man git
+  532  git ?
+  533  git --help
+  534  git config
+  535  man git
+  536  git-config
+  537  git-config
+  538  sudo git-config
+  539  git --help config
+  540  pwd
+  541  git init
+  542  ls
+  543  git status
+  544  ls -a
+  545  pwd
+  546  clear
+  547  pwd
+  548  history
+  549  cd..
+  550  ls
+  551  history > git_notes_1.txt
