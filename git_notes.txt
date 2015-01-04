@@ -1,4 +1,4 @@
-  145  cd sea-w23-uge/
+
   146  ls
   147  cd mcfun/
   148  ls
@@ -15,7 +15,7 @@
   159  git push origin remote
   160  git push origin remote
   161  sudo git push origin remote
-  162  git status
+  16
   163  git push origin master
   164  clear
   165  ls
